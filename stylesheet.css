@@ -13,13 +13,13 @@ h1{
 }
 
 #section2{
-  background: green; /* Old browsers */
+  background:#adff2f; /* Old browsers */
 
   background-repeat:no-repeat;
   height:400px;
 }
 #section3{
-  background:orange; /* Old browsers */
+  background:#5CACEE; /* Old browsers */
 
   background-repeat:no-repeat;
   height:400px;
