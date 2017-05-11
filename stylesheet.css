@@ -14,12 +14,17 @@ h1{
 
 #section2{
   background:#adff2f; /* Old browsers */
-
+  background: -moz-linear-gradient(top, #adff2f 0%, #bfff00 47%, #00bfff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #adff2f 0%,#bfff00 47%,#00bfff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #adff2f 0%,#bfff00 47%,#00bfff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-repeat:no-repeat;
   height:400px;
 }
 #section3{
-  background:#5CACEE; /* Old browsers */
+  background:#5CACEE; /* Old browsers */  
+  background: -moz-linear-gradient(top, #5CACEE 0%, #e6e600 47%,  #e6ccff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #5CACEE 0%,#e6e600 47%, #e6ccff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #5CACEE 0%,#e6e600 47%, #e6ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   background-repeat:no-repeat;
   height:400px;
