@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $("img").click(function(){
-  Alert:("Dwane Is Trash"):
+  alert("Dwane Is Trash"):
   });
 });
