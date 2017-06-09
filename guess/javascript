@@ -1,10 +1,11 @@
 $(document).ready(function(){
 	var random_num = Math.floor((Math.random()*100) + 1);
-	//create click event for submit button
- 
- 
- 
-	//create click event for clear button
- 
+
+	var name =$("Awesomeness[name=submit]").val ();
+	$("#welcome").html.(name);
+	var name =$("Awesomeness[name=clear]").val ();
+	$("#welcome").html.(name);
+ });
+ });
  
 });
