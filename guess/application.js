@@ -1,11 +1,14 @@
 $(document).ready(function(){
 	var random_num = Math.floor((Math.random()*100) + 1);
 
-	var name =$("Awesomeness[name=submit]").val ();
-	$("#welcome").html.(name);
-	var name =$("Awesomeness[name=clear]").val ();
-	$("#welcome").html.(name);
- });
- });
- 
+	$("#submit").click(function(){
+		var guess = $("input[name=Awesomeness]").val();
+		if(guess == random_num){
+			$("#response").html("Good job!");
+		} else if(guess < random_num){
+			$("#response").html("Guess higher!");
+		} else if{guess > random_num){
+			$("#response").html("Guess lower");
+		}
+	});
 });
