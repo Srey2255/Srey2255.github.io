@@ -7,7 +7,7 @@ $(document).ready(function(){
 			$("#response").html("Good job!");
 		} else if(guess < random_num){
 			$("#response").html("Guess higher!");
-		} else if{guess > random_num){
+		} else if(guess > random_num){
 			$("#response").html("Guess lower");
 		}
 	});
