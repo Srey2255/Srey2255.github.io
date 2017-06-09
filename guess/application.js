@@ -6,11 +6,11 @@ $(document).ready(function(){
 		var guess = $("input[name=Awesomeness]").val();
 		console.log(guess);
 		if(guess == random_num){
-			$("#response").html("Good job!");
+			$(".box").html("Good job!");
 		} else if(guess < random_num){
-			$("#response").html("Guess higher!");
+			$(".box").html("Guess higher!");
 		} else if(guess > random_num){
-			$("#response").html("Guess lower");
+			$(".box").html("Guess lower");
 		}
 	});
 });
